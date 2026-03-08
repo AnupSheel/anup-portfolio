@@ -78,7 +78,7 @@ export const EXPERIENCE = [
     ],
   },
   {
-    role: "Frontend Developer Intern",
+    role: "Frontend Developer",
     company: "Bynry Technologies Pvt. Ltd.",
     companyDescription:
       "SaaS product company building solutions for utility and energy management",

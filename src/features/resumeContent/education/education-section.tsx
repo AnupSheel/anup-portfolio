@@ -7,7 +7,7 @@ import { EDUCATION } from "../shared/constants.ts";
 
 export default function EducationSection() {
   return (
-    <section id="education" className="py-24 sm:py-32 bg-muted/30">
+    <section id="education" className="py-24 sm:py-32">
       <div className="max-w-4xl mx-auto px-6">
         <Reveal>
           <div className="text-center mb-16 space-y-4">
@@ -52,7 +52,7 @@ export default function EducationSection() {
         {/* Achievement */}
         <Reveal delay={0.3}>
           <motion.div whileHover={{ scale: 1.01 }} className="mt-12">
-            <Card className="border-primary/20 bg-primary/5 hover:shadow-lg transition-shadow">
+            <Card className="border-primary/20 bg-[#fefce8] dark:bg-[#2e1d0f] hover:shadow-lg transition-shadow relative z-[2]">
               <CardContent className="p-6 flex items-start gap-4">
                 <motion.div
                   animate={{ rotate: [0, 10, -10, 0] }}

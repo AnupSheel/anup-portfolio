@@ -15,28 +15,31 @@ export default function Index() {
   const scaleX = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      {/* Animated background */}
+    <div className="min-h-screen text-foreground">
+      {/* Animated background canvas — at z-[-1], behind all sections */}
       <AnimatedBackground />
 
-      {/* Scroll progress bar */}
-      <motion.div
-        style={{ scaleX, transformOrigin: "left" }}
-        className="fixed top-0 left-0 right-0 h-[3px] bg-primary z-[60]"
-      />
+      {/* All content above the particle canvas */}
+      <div className="relative z-[2]">
+        {/* Scroll progress bar */}
+        <motion.div
+          style={{ scaleX, transformOrigin: "left" }}
+          className="fixed top-0 left-0 right-0 h-[3px] bg-primary z-[60]"
+        />
 
-      {/* Navigation */}
-      <Navbar />
+        {/* Navigation */}
+        <Navbar />
 
-      {/* Sections */}
-      <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
-      <SkillsSection />
-      <ExperienceSection />
-      <EducationSection />
-      <ContactSection />
-      <FooterSection />
+        {/* Sections */}
+        <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <EducationSection />
+        <ContactSection />
+        <FooterSection />
+      </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { SKILL_CATEGORIES } from "../shared/constants.ts";
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="py-24 sm:py-32 bg-muted/30">
+    <section id="skills" className="py-16 sm:py-24">
       <div className="max-w-6xl mx-auto px-6">
         <Reveal>
           <div className="text-center mb-16 space-y-4">

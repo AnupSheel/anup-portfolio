@@ -4,7 +4,7 @@ import { EXPERIENCE } from "../shared/constants.ts";
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="py-24 sm:py-32">
+    <section id="experience" className="py-16 sm:py-24">
       <div className="max-w-4xl mx-auto px-6">
         <Reveal>
           <div className="text-center mb-16 space-y-4">
@@ -32,7 +32,7 @@ export default function ExperienceSection() {
                     backgroundColor: "var(--primary)",
                   }}
                 />
-                <div className="space-y-3">
+                <div className="space-y-3 bg-card p-6 rounded-xl border border-border/50 shadow-sm relative -top-1.5 pointer-events-auto">
                   <p className="text-xs font-medium tracking-wider text-primary uppercase">
                     {exp.period}
                   </p>

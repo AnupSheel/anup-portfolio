@@ -5,7 +5,7 @@ import AnimatedCounter from "../shared/animated-counter.tsx";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-24 sm:py-32 bg-muted/30">
+    <section id="about" className="py-16 sm:py-24">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <Reveal direction="left">

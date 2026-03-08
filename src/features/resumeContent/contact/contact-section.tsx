@@ -8,7 +8,7 @@ import { RESUME_URL } from "../shared/constants.ts";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-24 sm:py-32 relative overflow-hidden">
+    <section id="contact" className="py-16 sm:py-24 relative overflow-hidden">
       <FloatingParticles count={12} />
       <div className="max-w-3xl mx-auto px-6 text-center relative z-10">
         <Reveal>

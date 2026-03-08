@@ -8,7 +8,7 @@ import { PROJECTS } from "../shared/constants.ts";
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="py-24 sm:py-32">
+    <section id="projects" className="py-16 sm:py-24">
       <div className="max-w-6xl mx-auto px-6">
         <Reveal>
           <div className="text-center mb-16 space-y-4">

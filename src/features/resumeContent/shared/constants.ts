@@ -59,6 +59,7 @@ export const SKILL_CATEGORIES = [
   { name: "UI Frameworks", items: ["Tailwind CSS", "Material UI", "Ng-Zorro"] },
   { name: "Database", items: ["MySQL", "Realm"] },
   { name: "Tools", items: ["Git", "GitHub", "VS Code", "Postman"] },
+  { name: "Testing", items: ["Jasmine", "Karma", "Jest"] },
 ];
 
 export const EXPERIENCE = [

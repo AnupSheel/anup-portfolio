@@ -1,7 +1,11 @@
 import { motion } from "motion/react";
 import { Download } from "lucide-react";
 import { Button } from "../../ui/button.tsx";
-import { NAV_ITEMS, RESUME_URL, scrollToSection } from "./constants.ts";
+import {
+  NAV_ITEMS,
+  RESUME_URL,
+  scrollToSection,
+} from "@/features/resumeContent/shared/constants.ts";
 
 export default function Navbar() {
   return (
